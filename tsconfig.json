@@ -1,14 +1,7 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
-    "strict": true,
-    "jsx": "react",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "types": ["jest", "node"] // Add "jest" here
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
