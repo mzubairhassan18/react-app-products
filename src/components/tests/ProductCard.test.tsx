@@ -1,4 +1,3 @@
-import React from "react";
 import { render } from "@testing-library/react";
 import ProductCard from "../ProductCard";
 import { BrowserRouter } from "react-router-dom";
